@@ -1,7 +1,7 @@
 # ng-gunma-website
 this is ng gunma  official site
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.0-rc.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.0-rc.8.
 
 ## Development server
 

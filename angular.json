@@ -71,18 +71,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ng-gunma-website:build"
+            "buildTarget": "ng-gunma-website:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ng-gunma-website:build:production"
+              "buildTarget": "ng-gunma-website:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ng-gunma-website:build"
+            "buildTarget": "ng-gunma-website:build"
           }
         },
         "test": {

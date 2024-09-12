@@ -2,7 +2,7 @@
 
 this is ng gunma official site
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
 
 ## Development server
 

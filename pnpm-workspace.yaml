@@ -1,18 +1,17 @@
 # 悪意のあるリリースは1週間以内に発見され、レジストリから削除される為
 # config = 7 day x 24h x 60 min
 minimumReleaseAge: 10080
+# 明示設定時は strict がデフォルト true のため、lockfile 再生成時に exclude を自動追記する
+minimumReleaseAgeStrict: false
 
 # minimumReleaseAge 未満のリリースを許可するパッケージ
-# スコープ指定はその配下の全バージョンが対象、パッケージ@バージョンは該当バージョンのみ
 minimumReleaseAgeExclude:
-  # Angular 22 系（リリースから7日未満のため除外）
+  # 公開から 7 日未満の依存も許可（Angular 更新・ツールチェーン向け）
   - '@angular/*'
   - '@angular-devkit/*'
   - '@ngtools/*'
   - '@schematics/*'
-  # 開発依存（バージョンアップ時は除外リストも更新すること）
-  - '@types/node@25.9.2'
-  - jasmine-core@6.3.0
+  - '@types/*'
 
 allowBuilds:
   '@parcel/watcher': set this to true or false

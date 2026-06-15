@@ -32,7 +32,7 @@
     "@angular/language-service": "^22.0.1",
     "@types/jasmine": "~6.0.0",
     "@types/jasminewd2": "~2.0.13",
-    "@types/node": "25.9.2",
+    "@types/node": "25.9.3",
     "codelyzer": "^6.0.2",
     "istanbul-lib-instrument": "^6.0.3",
     "jasmine-core": "~6.3.0",

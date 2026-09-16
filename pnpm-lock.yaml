@@ -9,34 +9,34 @@ importers:
   .:
     dependencies:
       '@angular/animations':
-        specifier: ^22.1.4
+        specifier: ^22.1.6
         version: 22.1.6(@angular/core@22.1.6(@angular/compiler@22.1.6)(rxjs@7.8.2)(zone.js@0.16.3))
       '@angular/cdk':
-        specifier: ^22.1.4
+        specifier: ^22.1.7
         version: 22.1.7(d84494623d562fa967d8dbca5e8215e7)
       '@angular/common':
-        specifier: ^22.1.4
+        specifier: ^22.1.6
         version: 22.1.6(@angular/core@22.1.6(@angular/compiler@22.1.6)(rxjs@7.8.2)(zone.js@0.16.3))(rxjs@7.8.2)
       '@angular/compiler':
-        specifier: ^22.1.4
+        specifier: ^22.1.6
         version: 22.1.6
       '@angular/core':
-        specifier: ^22.1.4
+        specifier: ^22.1.6
         version: 22.1.6(@angular/compiler@22.1.6)(rxjs@7.8.2)(zone.js@0.16.3)
       '@angular/forms':
-        specifier: ^22.1.4
+        specifier: ^22.1.6
         version: 22.1.6(@angular/common@22.1.6(@angular/core@22.1.6(@angular/compiler@22.1.6)(rxjs@7.8.2)(zone.js@0.16.3))(rxjs@7.8.2))(@angular/core@22.1.6(@angular/compiler@22.1.6)(rxjs@7.8.2)(zone.js@0.16.3))(@angular/platform-browser@22.1.6(@angular/animations@22.1.6(@angular/core@22.1.6(@angular/compiler@22.1.6)(rxjs@7.8.2)(zone.js@0.16.3)))(@angular/common@22.1.6(@angular/core@22.1.6(@angular/compiler@22.1.6)(rxjs@7.8.2)(zone.js@0.16.3))(rxjs@7.8.2))(@angular/core@22.1.6(@angular/compiler@22.1.6)(rxjs@7.8.2)(zone.js@0.16.3)))(rxjs@7.8.2)
       '@angular/material':
-        specifier: ^22.1.4
+        specifier: ^22.1.7
         version: 22.1.7(b5aa2cc36825975d03347d205eecaacb)
       '@angular/platform-browser':
-        specifier: ^22.1.4
+        specifier: ^22.1.6
         version: 22.1.6(@angular/animations@22.1.6(@angular/core@22.1.6(@angular/compiler@22.1.6)(rxjs@7.8.2)(zone.js@0.16.3)))(@angular/common@22.1.6(@angular/core@22.1.6(@angular/compiler@22.1.6)(rxjs@7.8.2)(zone.js@0.16.3))(rxjs@7.8.2))(@angular/core@22.1.6(@angular/compiler@22.1.6)(rxjs@7.8.2)(zone.js@0.16.3))
       '@angular/platform-browser-dynamic':
-        specifier: ^22.1.4
+        specifier: ^22.1.6
         version: 22.1.6(@angular/common@22.1.6(@angular/core@22.1.6(@angular/compiler@22.1.6)(rxjs@7.8.2)(zone.js@0.16.3))(rxjs@7.8.2))(@angular/compiler@22.1.6)(@angular/core@22.1.6(@angular/compiler@22.1.6)(rxjs@7.8.2)(zone.js@0.16.3))(@angular/platform-browser@22.1.6(@angular/animations@22.1.6(@angular/core@22.1.6(@angular/compiler@22.1.6)(rxjs@7.8.2)(zone.js@0.16.3)))(@angular/common@22.1.6(@angular/core@22.1.6(@angular/compiler@22.1.6)(rxjs@7.8.2)(zone.js@0.16.3))(rxjs@7.8.2))(@angular/core@22.1.6(@angular/compiler@22.1.6)(rxjs@7.8.2)(zone.js@0.16.3)))
       '@angular/router':
-        specifier: ^22.1.4
+        specifier: ^22.1.6
         version: 22.1.6(@angular/common@22.1.6(@angular/core@22.1.6(@angular/compiler@22.1.6)(rxjs@7.8.2)(zone.js@0.16.3))(rxjs@7.8.2))(@angular/core@22.1.6(@angular/compiler@22.1.6)(rxjs@7.8.2)(zone.js@0.16.3))(@angular/platform-browser@22.1.6(@angular/animations@22.1.6(@angular/core@22.1.6(@angular/compiler@22.1.6)(rxjs@7.8.2)(zone.js@0.16.3)))(@angular/common@22.1.6(@angular/core@22.1.6(@angular/compiler@22.1.6)(rxjs@7.8.2)(zone.js@0.16.3))(rxjs@7.8.2))(@angular/core@22.1.6(@angular/compiler@22.1.6)(rxjs@7.8.2)(zone.js@0.16.3)))(rxjs@7.8.2)
       rxjs:
         specifier: ~7.8.2
@@ -45,7 +45,7 @@ importers:
         specifier: ^2.8.1
         version: 2.8.1
       zone.js:
-        specifier: ~0.16.2
+        specifier: ~0.16.3
         version: 0.16.3
     devDependencies:
       '@angular-devkit/build-angular':
@@ -55,10 +55,10 @@ importers:
         specifier: 22.1.8
         version: 22.1.8(@types/node@26.4.0)(chokidar@5.0.0)
       '@angular/compiler-cli':
-        specifier: ^22.1.4
+        specifier: ^22.1.6
         version: 22.1.6(@angular/compiler@22.1.6)(typescript@6.0.3)
       '@angular/language-service':
-        specifier: ^22.1.4
+        specifier: ^22.1.6
         version: 22.1.6
       '@types/jasmine':
         specifier: ~6.0.0
